@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>Car Sports</title>
+</head>
+<body>
+    <header class="fixed-header">
+        <h1>Car Sports</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Car Sports</a></li>
+                <li><a href="american.html">American Cars</a></li>
+                <li><a href="european.html">European Cars</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <a href="#main-content" class="skip-link">Skip to Main</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- F1 Racing Event -->
+        <section class="race-event">
+            <h2>F1 Racing</h2>
+            <div class="slider">
+                <div class="slides">
+                    <img src="images/F-1.jpg" alt="F1 Racing" class="slide active">
+                    <img src="images/F1_2.jpg" alt="F1 Racing" class="slide">
+                    <img src="images/F1_3.jpg" alt="F1 Racing" class="slide">
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                <div class="dots">
+                    <span class="dot" onclick="currentSlide(1, 0)"></span>
+                    <span class="dot" onclick="currentSlide(2, 0)"></span>
+                    <span class="dot" onclick="currentSlide(3, 0)"></span>
+                </div>
+            </div>
+            <p>The pinnacle of motorsport, featuring high-speed races around the world with advanced aerodynamics and hybrid technologies.</p>
+        </section>
+
+        <!-- NASCAR Event -->
+        <section class="race-event">
+            <h2>NASCAR</h2>
+            <div class="slider">
+                <div class="slides">
+                    <img src="images/nascar-daytona.jpg" alt="NASCAR" class="slide active">
+                    <img src="images/nasika_2.jpg" alt="NASCAR Track" class="slide">
+                    <img src="images/nasca3.jpg" alt="NASCAR Crowd" class="slide">
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                <div class="dots">
+                    <span class="dot" onclick="currentSlide(1, 1)"></span>
+                    <span class="dot" onclick="currentSlide(2, 1)"></span>
+                    <span class="dot" onclick="currentSlide(3, 1)"></span>
+                </div>
+            </div>
+            <p>Popular in the United States, NASCAR races are known for their close racing, large fields, and oval track competitions.</p>
+        </section>
+
+        <!-- Le Mans 24 Hours Event -->
+        <section class="race-event">
+            <h2>Le Mans 24 Hours</h2>
+            <div class="slider">
+                <div class="slides">
+                    <img src="images/le-mans.jpg" alt="Le Mans 24 Hours" class="slide active">
+                    <img src="images/leman_2.jpg" alt="Le Mans Night" class="slide">
+                    <img src="images/lemang3.jpg" alt="Le Mans Cars" class="slide">
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+                <div class="dots">
+                    <span class="dot" onclick="currentSlide(1, 2)"></span>
+                    <span class="dot" onclick="currentSlide(2, 2)"></span>
+                    <span class="dot" onclick="currentSlide(3, 2)"></span>
+                </div>
+            </div>
+            <p>An iconic endurance race that tests the limits of sports cars, held annually near Le Mans, France.</p>
+        </section>
+
+        <!-- Rally Racing Event -->
+        <section class="race-event">
+            <h2>Rally Racing</h2>
+            <div class="slider">
+                <div class="slides">
+                    <img src="images/Rally_Racing.jpg" alt="Rally Racing" class="slide active">
+                    <img src="images/rally2.jpg" alt="Rally Mud" class="slide">
+                    <img src="images/rally3.jpg" alt="Rally Snow" class="slide">
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+                <div class="dots">
+                    <span class="dot" onclick="currentSlide(1, 3)"></span>
+                    <span class="dot" onclick="currentSlide(2, 3)"></span>
+                    <span class="dot" onclick="currentSlide(3, 3)"></span>
+                </div>
+            </div>
+            <p>Rally races take place on tough terrains and public roads, pushing the durability and versatility of production-based cars.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© Jiawei Hu, SI 579 Final Project, My Dream Car Garage. All rights reserved.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
